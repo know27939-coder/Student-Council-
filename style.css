@@ -1,0 +1,29 @@
+/* การตั้งค่า Font หลัก */
+body {
+    font-family: 'Sarabun', sans-serif;
+    background-color: #f0f9ff;
+}
+
+/* เว้นระยะด้านล่างสำหรับมือถือที่มีปุ่มโฮมบนหน้าจอ */
+.safe-area-bottom {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 80px);
+}
+
+/* ปรับแต่ง Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+/* พื้นหลังบัตรสะสมแต้ม */
+.waste-card-bg {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+    border: 2px dashed #3b82f6;
+}
+
